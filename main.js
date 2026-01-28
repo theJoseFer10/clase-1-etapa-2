@@ -13,7 +13,7 @@ console.log(typeof edad);
 console.log(typeof precio);
 
 // String (texto).
-let nombre = "Ana";
+let nombre = "Fernando";
 let saludo = 'Hola mundo';
 console.log("Tipo de dato String:");
 console.log(nombre);
@@ -44,9 +44,9 @@ console.log(typeof direccion);
 
 // Object (estructura de datos con propiedades).
 let persona = {
-    nombre: 'Diego',
-    edad: '22',
-    ciudad: 'CDMX'
+    nombre: 'Fulano',
+    edad: '26',
+    ciudad: 'Guanajuato'
 };
 console.log("Tipo de dato Object:");
 console.log(typeof persona);
