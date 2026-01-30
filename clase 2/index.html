@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Calificaciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="seccion-principal">
+        <div class="card">
+            <h1>Calificaciones</h1>
+            <p class="subtitle">Registro de estudiantes</p>
+            
+            <form action="#" onsubmit="return false;">
+                <div class="input-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ej. Juan" id="nombre">
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <label for="ap">Apellido Paterno</label>
+                        <input type="text" placeholder="Pérez" id="ap">
+                    </div>
+                    <div class="input-group">
+                        <label for="am">Apellido Materno</label>
+                        <input type="text" placeholder="López" id="am">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="calificacion">Calificación final</label>
+                    <input type="number" placeholder="0 - 100" id="calificacion">
+                </div>
+
+                <button id="btn" type="button" onclick="returnMessage()">
+                    Subir Calificación
+                </button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
