@@ -1,0 +1,50 @@
+/* Configuración básica */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 15px; /* Espacio entre botones */
+}
+
+/* Estilo de los botones */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Color diferente para el segundo botón (opcional) */
+button:last-child {
+    background-color: #28a745;
+}
+
+/* Efectos al pasar el ratón */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    filter: brightness(1.1);
+}
+
+/* Efecto al hacer clic */
+button:active {
+    transform: translateY(0);
+}
