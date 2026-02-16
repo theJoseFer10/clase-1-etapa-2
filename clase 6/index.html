@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Foro y comentarios.</h1>
+        <p>En esta clase se explicará cómo crear un foro de discusión y un sistema de comentarios utilizando HTML, CSS y JavaScript. Se abordarán temas como la estructura del foro,
+    </header>
+    <main>
+        <section id="seccion_formulario">
+            <form action="#">
+                <label for="comentario">Escriba su respuesta:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                <br>
+                <input type="button" id="boton" value="Enviar">
+            </form>
+        </section>
+        <section id="seccion_respuestas">
+            <h2>Respuestas</h2>
+            <div id="lista-comentarios">
+
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
